@@ -2,9 +2,9 @@
 
 ![GladTube](https://i.ibb.co/3zxZ0JC/GladTube.png)
 
-GLadTube is a Full-stack YouTube clone built using the MERN stack. It is based on Lama Dev's [YouTube Tutorial.](https://www.youtube.com/watch?v=CCF-xV3RSSs&list=PLj-4DlPRT48nfYgDK00oTjlDF4O0ZZyG8&index=32)
+VideoApp is a Full-stack YouTube clone built using the MERN stack.
 
-## What are the features of GLadTube
+## What are the features of VideoApp
 
 Users are able to sign-in if they already have an account or signup and register a new one. They can also choose signin with google using firebase authentication.
 
@@ -20,29 +20,7 @@ Following this tutorial I was able to strengthen my understanding of core MERN s
 
 Additionally Firebase was also used for authentication and storage.
 
-## What are the challenges encountered
 
-Since this is a relatively new tutorial, few challenges are encountered. The one thing that I have to change is the timeago package that Lama used in this tutorial since it is already outdated and it gives warning on the console.
-
-However since Lama did not deploy this app, major challenges regarding deployment are encountered where everything doesn't seem to work as intended. I am also trying to figure out what I did why access token suddenly is not working on the front end while everything is working fine on Postman. This results to user unable to use all functionality that requires verified token to proceed.
-
-![Postman](https://i.ibb.co/k55VFwc/Postman.png)
-
-## Codebase differences
-
-Moved the styled-components styles on the bottom for easier navigation and tracking of react core components and functionalities.
-
-Switched the timeago package for momentjs.
-
-Added register user and logout functionality as well as additional error handling (optional chaining) of some components to prevent the app from crashing when the user logs out and the states are reset to null.
-
-## Future improvements
-
-Lama already gave the logic for the backend to handle updating and deleting of users, comments and videos. I would like to find a way to handle those logic from the frontend in the future.
-
-### Liked this repository?
-
-Please don't forget to leave a ⭐🙏🏻!
 
 ## Run this app on your local machine
 
