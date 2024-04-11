@@ -12,13 +12,10 @@ In the homepage of the app, it will fetch random videos from MongoDB. Users can 
 
 There is also a recommendation panel on the right side of the screen which fetch videos with the same tags.
 
+There is also a History Feature where User can View his/her History  and can pause or delete the History.
+
 Lastly, users are also able to logout.
 
-## What went well
-
-Following this tutorial I was able to strengthen my understanding of core MERN stack concepts. Additionally I was able to add styled components to my UI library repertoire.
-
-Additionally Firebase was also used for authentication and storage.
 
 
 
