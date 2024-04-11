@@ -1,4 +1,4 @@
-# GLadTube
+# VideoApp
 
 ![GladTube](https://i.ibb.co/3zxZ0JC/GladTube.png)
 
